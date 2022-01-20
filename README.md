@@ -19,9 +19,9 @@ You are always welcomed to submit a pull request for the related and unlisted pa
 |**Data Bias**|Conformity Bias|User→️Data|conformity|skewed interaction labels|Modeling social or popularity effect|
 |**Data Bias**|Position Bias|User→️Data|trust top of lists;exposed to top of lists|unreliable positive data|click models;Propensity Score;Trust-aware Model|
 |**Model Bias**|Inductive Bias|Data→️Model|researchers  or engineers created|better generalization,lower variance or faster recommendation|-|
-|**Bias**|Popularity Bias|Model→️User|Algorithm and unbalanced data|matthew effect|Regularization;Adversarial Learning;Causal graph|
-|**Bias**|Unfairness|Model→️User|Algorithm and unbalanced data|unfairness for certain groups|ReBalancing;regularization;Adversarial Learning;Causal Modeling|
-|**Bias**|Bias amplification in the loop|All|Feed|Enhance and spread bias|Break the loop by collecting random data or using reinforcement learning|
+|**Result Bias**|Popularity Bias|Model→️User|Algorithm and unbalanced data|matthew effect|Regularization;Adversarial Learning;Causal graph|
+|**Result Bias**|Unfairness|Model→️User|Algorithm and unbalanced data|unfairness for certain groups|ReBalancing;regularization;Adversarial Learning;Causal Modeling|
+|**Loop Bias**|Bias amplification in the loop|All|Feed|Enhance and spread bias|Break the loop by collecting random data or using reinforcement learning|
 
 <a id='Survey'></a>
 ## Survey
