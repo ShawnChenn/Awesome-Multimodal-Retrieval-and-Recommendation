@@ -12,24 +12,23 @@ You are always welcomed to submit a pull request for the related and unlisted pa
 - <a href="#Journal">Journal Resources</a><br>
 - <a href="#Tutorial">Tutorial Resources</a><br>
 
-|Types|Stages in the loop|Cause|Effect|Major Solutions|
-|---|---|---|---|---|
-|Selection Bias|User➡️Data|---|---|---|
-|Exposure Bias|User➡️Data|---|---|---|
-|Conformity Bias|User➡️Data|---|---|---|
-|Position Bias|User➡️Data|---|---|---|
-|Inductive Bias|Data➡️Model|---|---|---|
-|Popularity Bias|Model➡️User|---|---|---|
-|Unfairness|Model➡️User|---|---|---|
-|Bias amplification in the loop|All|---|---|---|
-
+|Category|Subtype|Stages in the loop|Cause|Effect|Major Solutions|
+|---|---|---|---|---|---|
+|**Data Bias**|Selection Bias|Use→Data|users' self-selection|skewed observed rating distribution|Data Imputation;Propensity Score;Joint Generative  Model;Doubly Robust Model|
+|**Data Bias**|Exposure Bias|User→️Data|item popularity;intervened by systems;User behavior and background|unobserved  interactions do not mean negative|Giving confidence weights by heuristic, sampling or exposure-based model;Propensity score;Causality-based Model|
+|**Data Bias**|Conformity Bias|User→️Data|conformity|skewed interaction labels|Modeling social or popularity effect|
+|**Data Bias**|Position Bias|User→️Data|trust top of lists;exposed to top of lists|unreliable positive data|click models;Propensity Score;Trust-aware Model|
+|**Model Bias**|Inductive Bias|Data→️Model|researchers  or engineers created|better generalization,lower variance or faster recommendation|-|
+|**Bias**|Popularity Bias|Model→️User|Algorithm and unbalanced data|matthew effect|Regularization;Adversarial Learning;Causal graph|
+|**Bias**|Unfairness|Model→️User|Algorithm and unbalanced data|unfairness for certain groups|ReBalancing;regularization;Adversarial Learning;Causal Modeling|
+|**Bias**|Bias amplification in the loop|All|Feed|Enhance and spread bias|Break the loop by collecting random data or using reinforcement learning|
 
 <a id='Survey'></a>
-## General survey
+## Survey
 * [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) (Arxiv)
 
 <a id='Article'></a>
-## Detailed Article
+## Article
 * [Should i follow the crowd?: A probabilistic analysis of the effectiveness of popularity in recommender systems](https://dl.acm.org/doi/10.1145/3209978.3210014) (SIGIR2018 Best Paper Award) <br/> Wait for content update...
 * [Controlling Fairness and Bias in Dynamic Learning-to-Rank](http://www.cs.cornell.edu/people/tj/publications/morik_etal_20a.pdf) (SIGIR2020 Best Paper Award) <br/> Wait for content update...
 * [Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness](https://arxiv.org/abs/2105.00855) (SIGIR2021 Best Paper Award) <br/> Wait for content update...
