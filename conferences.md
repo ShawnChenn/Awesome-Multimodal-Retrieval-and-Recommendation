@@ -1,0 +1,35 @@
+# Database and Data Mining # 
+
+|   |Title|Tier|Due Date|
+|---|---|---|---|
+|Conference|**SIGIR** |A|01.24|
+|Conference|**SIGKDD**|A|02.10|
+|Conference|SIGMOD|A|07.02|
+|Conference|**WWW**   |A|10.22|
+|Conference|ICDE  |A|11.17|
+|Conference|WSDM  |B|08.09|
+|Conference|CIKM  |B|05.27|
+|Conference|ICDM  |B|06.12|
+|Conference|SDM   |B|10.13|
+|---|---|---|---|
+|Journal|TKDE|A|---|
+|Journal|TOIS|A|---|
+|Journal|IPM |B|---|
+|Journal|TKDD|B|---|
+|Journal|DMKD|B|---|
+
+# AI # 
+|   |Title|Tier|Due Date|
+|---|---|---|---|
+|Conference|ICML|A|01.28|
+|Conference|NIPS|A|05.29|
+|Conference|AAAI|A|09.09|
+|Conference|ICLR|A|09.29|
+|Conference|IJCAI|B|01.15|
+|Conference|RecSys|B|04.27|
+|---|---|---|---|
+|Journal|JMLR|A|---|
+|Journal|AI|A|---|
+|Journal|TNNLS |B|---|
+|Journal|NN|B|---|
+|Journal|PRL|B|---|
