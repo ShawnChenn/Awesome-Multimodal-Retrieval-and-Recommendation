@@ -1,4 +1,4 @@
-# AWESOME-Debias-Recommender System [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# AWESOME-Unbiased-Recommender System [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 Related Papers for bias and debias in machine learning (we mainly focus on its application in recommender systems).
 
 # Statement
