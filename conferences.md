@@ -14,9 +14,7 @@
 |---|---|---|---|
 |Journal|TKDE|A|---|
 |Journal|TOIS|A|---|
-|Journal|IPM |B|---|
 |Journal|TKDD|B|---|
-|Journal|DMKD|B|---|
 
 # AI # 
 |   |Title|Tier|Due Date|

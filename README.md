@@ -1,11 +1,40 @@
-# AWESOME-Unbiased-Recommender System [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-Related Papers for bias and debias in machine learning (we mainly focus on its application in recommender systems).
+# AWESOME-Multimodal-Retrieval-and-Recommendation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Statement
-Since there are tons of new papers on related topic in many conferences, we may miss some papers.
-You are always welcomed to submit a pull request for the related and unlisted papers on debias ML, which are published on peer-review conferences (SIGIR/WWW/AAAI/KDD etc.) or released on arXiv.
+This is a repository for organizing articles about Retrieval and Recommendation with Multimodal Large Language Models, Large Language Models, and Diffusion Models; Most papers are linked to **my reading notes**. Feel free to visit my [personal homepage](https://shawnchenn.github.io/) and contact me for collaboration and discussion.
 
-## Overview of Bias in Recommender Systems
+
+### About Me :
+I'm a third-year Ph.D. student at the Hong Kong Polytechnic Univerisy, advised by Prof. [Qing Li].
+
+
+###  🔥 Updated 2024-12-11
+- The structure of this repository is being updated.
+
+# Table of Contents (ongoing)
+- [Awesome-LLM-Rec](#llm-retrieval-rec)
+- [Awesome-MLLM-Rec](#mllm-retrieval-rec)
+- [Efficient LLM/MLLM](#efficient-llm-mllm)
+- [LLM/MLLM Alignment](#alignment-llm-mllm)
+- [Bias in Recommendation](#bias-in-recommendation)
+
+# LLM-based Retrieval Recommendation
+
+# MLLM-based Retrieval Recommendation
+
+
+# Efficient LLM MLLM
+1. (WWW'24) [Large Multimodal Model Compression via Iterative Efficient Pruning and Distillation](https://zhuanlan.zhihu.com/p/720542712)(address multi-level redundancy via multi-stage pruning and an advanced distillation loss design.)
+
+2.
+
+
+# Survey and Outlook
+1. [万字长文总结多模态大模型最新进展（Modality Bridging篇）](https://zhuanlan.zhihu.com/p/688215018)
+2. [万字长文总结多模态大模型最新进展（Video篇）](https://zhuanlan.zhihu.com/p/704246896)
+3. [Aligning Large Language Models with Human](https://zhuanlan.zhihu.com/p/693160839)
+4. [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) 
+
+# Bias in Recommendation
 
 |Category|Subtype|Stages in the loop|Cause|Effect|Major Solutions|
 |---|---|---|---|---|---|
@@ -18,20 +47,6 @@ You are always welcomed to submit a pull request for the related and unlisted pa
 |**Result Bias**|Unfairness|Model→️User|Algorithm and unbalanced data|unfairness for certain groups|ReBalancing;regularization;Adversarial Learning;Causal Modeling|
 |**Loop Bias**|Bias amplification in the loop|All|Feed|Enhance and spread bias|Break the loop by collecting random data or using reinforcement learning|
 
-## Contents
-
-- <a href="#Survey"> Survey Resources</a><br>
-- <a href="#Papers"> Paper Resources</a><br>
-- <a href="#Tutorials"> Tutorial Resources</a><br>
-
-
-<a id='Survey'></a>
-## Survey
-* [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) (Arxiv)
-
-<a id='Papers'></a>
-## Article
-### 2024
 * [Fair Sequential Recommendation without User Demographics](https://dl.acm.org/doi/pdf/10.1145/3626772.3657703) (SIGIR 2024)
 * [Adaptive Fair Representation Learning for Personalized Fairness in Recommendations via Information Alignment](https://arxiv.org/abs/2404.07494) (SIGIR 2024)
 * [Hypergraph Convolutional Network for User-Oriented Fairness in Recommender Systems] (SIGIR 2024)
@@ -43,17 +58,9 @@ You are always welcomed to submit a pull request for the related and unlisted pa
 * [Using Self-supervised Learning Can Improve Model Fairness
 ] (KDD 2024)
 * [Neural Collapse Inspired Debiased Representation Learning for Min-max Fairness] (KDD 2024)
-### 2020
 * [Should i follow the crowd?: A probabilistic analysis of the effectiveness of popularity in recommender systems](https://dl.acm.org/doi/10.1145/3209978.3210014) (SIGIR2018 Best Paper Award) <br/> Wait for content update...
 * [Controlling Fairness and Bias in Dynamic Learning-to-Rank](http://www.cs.cornell.edu/people/tj/publications/morik_etal_20a.pdf) (SIGIR2020 Best Paper Award) <br/> Wait for content update...
 * [Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness](https://arxiv.org/abs/2105.00855) (SIGIR2021 Best Paper Award) <br/> Wait for content update...
 * [Causal Intervention for Leveraging Popularity Bias in Recommendation](https://arxiv.org/abs/2105.06067) (SIGIR2021 Best Paper Award) <br/> Wait for content update...
-* [Modeling Users’ Exposure with Social KnowledgeInfluence and Consumption Influence for Recommendation](https://dl.acm.org/doi/10.1145/3269206.3271742) (CIKM2018) <br/> Wait for content update...
-* [Modeling user exposure in recommendation](https://arxiv.org/abs/1510.07025) (WWW2016) <br/> Wait for content update...
-
-<a id='SB'></a>
-* **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert) :star::star::star::star::star:
-
-<a id='Tutorials'></a>
-## Tutorials
-* [Bias Issues and Solutions in Recommender System: Tutorial on the RecSys 2021]
+* [Modeling Users’ Exposure with Social KnowledgeInfluence and Consumption Influence for Recommendation](https://dl.acm.org/doi/10.1145/3269206.3271742) (CIKM2018) 
+* [Modeling user exposure in recommendation](https://arxiv.org/abs/1510.07025) (WWW2016) 
