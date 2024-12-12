@@ -17,9 +17,11 @@ I'm a third-year Ph.D. student at the Hong Kong Polytechnic Univerisy, advised b
 - [LLM/MLLM Alignment](#alignment-llm-mllm)
 - [Bias in Recommendation](#bias-in-recommendation)
 
-# LLM-based Retrieval Recommendation
+# LLM-based Retrieval or Recommendation
+1. (NeurIPS'24) [G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering](https://openreview.net/forum?id=MPJ3oXtTZl)
 
-# MLLM-based Retrieval Recommendation
+
+# MLLM-based Retrieval or Recommendation
 
 
 # Efficient LLM MLLM
